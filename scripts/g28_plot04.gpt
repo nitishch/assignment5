@@ -1,14 +1,19 @@
 set datafile separator ","
+plot'../data/highest.csv' using 2:3
+min_y=GPVAL_DATA_Y_MIN
+max_y=GPVAL_DATA_Y_MAX
+bin_width = (max_y-min_y)/10;
+set boxwidth 0.5 relative
+bin_number(x) = floor(x/bin_width)
+rounded(x) = bin_width * ( bin_number(x)+0.5)
 set term png
 set output "../plots/plot4.png"
-set offset 0.5,0.5,0.5,0.5
-set xlabel "Rerun number"
-set ylabel "variation"
+set offset 0,0,0.5,0.5
+set xlabel "Step Time"
+set ylabel "Frequency"
 set title "plot4"
 set autoscale
-set boxwidth 0.05 relative
 set style fill solid 1.0 noborder
-bin_width = 0.3;
-bin_number(x) = floor(x/bin_width)
-rounded(x) = bin_width * ( bin_number(x) + 0.5 )
-plot 'cutpaste.csv' u (rounded($1)):(1) t "frequency plot" w boxes
+plot '../data/highest.csv' u (rounded($3)):(1) t "cumulative frequency plot" smooth cumulative with lines,\
+'../data/highest.csv' u (rounded($3)):(1) t "frequency plot" smooth frequency with boxes
+

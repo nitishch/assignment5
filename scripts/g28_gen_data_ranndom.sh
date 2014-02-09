@@ -1,7 +1,7 @@
 #!/bin/bash
 touch ../data/g28_lab05data_random.csv
 iter=1
-while [ $iter -le 2 ]
+while [ $iter -le 6 ]
 do
 	j=1
 	sequence=$(seq 1 150 | shuf)

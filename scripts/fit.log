@@ -1,0 +1,474 @@
+
+
+*******************************************************************************
+Sun Feb  9 14:36:24 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sun Feb  9 14:36:43 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 133.992           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00096461
+rel. change during last iteration : -8.10335e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0155291
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000241153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.0132923       +/- 0.003712     (27.93%)
+b               = 0.149121         +/- 0.01446      (9.695%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:36:43 2014
+
+
+FIT:    data read from '../data/average4andrandom.csv' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.8113           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0736075
+rel. change during last iteration : -1.45114e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.135654
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0184019
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.124135        +/- 0.03243      (26.12%)
+d               = 1.45541          +/- 0.1263       (8.677%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:37:55 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 133.992           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00096461
+rel. change during last iteration : -8.10335e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0155291
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000241153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.0132923       +/- 0.003712     (27.93%)
+b               = 0.149121         +/- 0.01446      (9.695%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:37:55 2014
+
+
+FIT:    data read from '../data/average4andrandom.csv' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.8113           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0736075
+rel. change during last iteration : -1.45114e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.135654
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0184019
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.124135        +/- 0.03243      (26.12%)
+d               = 1.45541          +/- 0.1263       (8.677%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:40:46 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 133.992           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00096461
+rel. change during last iteration : -8.10335e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0155291
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000241153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.0132923       +/- 0.003712     (27.93%)
+b               = 0.149121         +/- 0.01446      (9.695%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:40:46 2014
+
+
+FIT:    data read from '../data/average4andrandom.csv' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.8113           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0736075
+rel. change during last iteration : -1.45114e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.135654
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0184019
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.124135        +/- 0.03243      (26.12%)
+d               = 1.45541          +/- 0.1263       (8.677%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:42:09 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 133.992           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00096461
+rel. change during last iteration : -8.10335e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0155291
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000241153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.0132923       +/- 0.003712     (27.93%)
+b               = 0.149121         +/- 0.01446      (9.695%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:42:09 2014
+
+
+FIT:    data read from '../data/average4andrandom.csv' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.8113           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0736075
+rel. change during last iteration : -1.45114e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.135654
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0184019
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.124135        +/- 0.03243      (26.12%)
+d               = 1.45541          +/- 0.1263       (8.677%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:42:47 2014
+
+
+FIT:    data read from "../data/average4andrandom.csv" u 1:3
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 133.992           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00096461
+rel. change during last iteration : -8.10335e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0155291
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000241153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -0.0132923       +/- 0.003712     (27.93%)
+b               = 0.149121         +/- 0.01446      (9.695%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Sun Feb  9 14:42:47 2014
+
+
+FIT:    data read from '../data/average4andrandom.csv' u 1:2
+        format = x:z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 94.8113           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.84312
+
+initial set of free parameter values
+
+c               = 1
+d               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0736075
+rel. change during last iteration : -1.45114e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.135654
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0184019
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.124135        +/- 0.03243      (26.12%)
+d               = 1.45541          +/- 0.1263       (8.677%)
+
+
+correlation matrix of the fit parameters:
+
+               c      d      
+c               1.000 
+d              -0.899  1.000 
