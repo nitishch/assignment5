@@ -1,0 +1,14 @@
+set datafile separator ","
+set term png
+set output "../plots/plot4.png"
+set offset 0.5,0.5,0.5,0.5
+set xlabel "Rerun number"
+set ylabel "variation"
+set title "plot4"
+set autoscale
+set boxwidth 0.05 relative
+set style fill solid 1.0 noborder
+bin_width = 0.3;
+bin_number(x) = floor(x/bin_width)
+rounded(x) = bin_width * ( bin_number(x) + 0.5 )
+plot 'cutpaste.csv' u (rounded($1)):(1) t "frequency plot" w boxes
