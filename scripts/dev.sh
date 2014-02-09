@@ -3,7 +3,7 @@ bc <<< "scale=5;"
 j=1
 file=../data/g28_lab05data_01.csv
 touch ../data/average.csv
-while [ $j -le 6 ]
+while [ $j -le 1500 ]
 do
 	steptime=0
 	stepdev=0
@@ -37,7 +37,7 @@ do
 	then		
 		postime=$(echo "scale=5; ${postime}+${posadder}" | bc)
 	fi	
-	if [ $(echo "scale=5; $loopadder < 300" | bc) -eq 1 ]
+	if [ $(echo "scale=5; $loopadder < 1000" | bc) -eq 1 ]
 	then		
 		looptime=$(echo "scale=5; ${looptime}+${loopadder}" | bc)
 	fi	

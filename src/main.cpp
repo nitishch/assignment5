@@ -166,10 +166,10 @@ int main(int argc, char** argv)
 //  timeElapsed = gettimeofday()-timeElapsed;
   std::cout.precision(5);
   std::cout << "Number of Iterations: "<< v << std::endl;
-  std::cout << "The average time per step is " << "0000" << std::fixed << s/v << " ms" << std::endl;
-  std::cout << "The average time for for collisions is " << "0000" << std::fixed << coll/v << " ms" << std::endl;
-  std::cout << "The average time for velocity updates is " << "0000" << std::fixed << velo/v << " ms" << std::endl;
-  std::cout << "The average time for position updates is " << "0000" << std::fixed << posi/v << " ms" << std::endl;
+  std::cout << "Average time per step is " << std::fixed << s/v << " ms" << std::endl;
+  std::cout << "Average time for for collisions is " << std::fixed << coll/v << " ms" << std::endl;
+  std::cout << "Average time for velocity updates is " << std::fixed << velo/v << " ms" << std::endl;
+  std::cout << "Average time for position updates is " << std::fixed << posi/v << " ms" << std::endl;
  // std::cout << "The average time for a " << v << " iterations is: " << "0000" << std::fixed << s/v << " ms" << std::endl;
   std::cout << std::endl << "Total loop time is " << time*1000 << " ms" << std::endl;
   return 0;

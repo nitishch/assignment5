@@ -2,7 +2,7 @@
 i=1
 #filename=dummy.txt
 touch ../data/g28_lab05data_02.csv
-while [ $i -lt 7 ]
+while [ $i -le 1500 ]
 do
 	j=1
 	while [ $j -lt 151 ]

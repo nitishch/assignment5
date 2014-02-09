@@ -4,7 +4,7 @@ j=1
 file4=../data/g28_lab05data_02.csv
 filerand=../data/g28_lab05data_random.csv
 touch ../data/average4andrandom.csv
-while [ $j -le 6 ]
+while [ $j -le 1500 ]
 do
 	steptime4=0
 	steptimerandom=0

@@ -62,7 +62,7 @@ else
 endif
 
 
-.PHONY: setup exe exelib doc report data
+.PHONY: setup exe exelib doc report data plot
 
 
 exe: setup $(BINDIR)/$(TARGET)
@@ -121,14 +121,15 @@ setup:
 clean:
 	@$(ECHO) -n "Cleaning up..."
 	@$(RM) -rf $(OBJDIR) *~ $(DEPS) $(SRCDIR)/*~
+	@$(RM) -f $(PROJECT_ROOT)data/* #this is edited
+	@$(RM) -f $(PROJECT_ROOT)plots/*
+	@$(RM) -f $(PROJECT_ROOT)scripts/fit.log
 	@$(ECHO) "Done"
-
 
 distclean: clean
 	@$(RM) -rf $(PROJECT_ROOT)mylibs $(BINDIR) $(DOCDIR)/html cs296_28_exelib $(PROJECT_ROOT)obj $(PROJECT_ROOT)bin $(PROJECT_ROOT)external/include/* $(PROJECT_ROOT)external/lib/* $(PROJECT_ROOT)external/src/Box2D
 	@cd ./doc/;$(RM) -f cs296_report_28.aux cs296_report_28.bbl cs296_report_28.blg cs296_report_28.log cs296_report_28.pdf dubdubexec-eps-converted-to.pdf sqpendulumexe-eps-converted-to.pdf sqpendulumnotexec-eps-converted-to.pdf toppledexec-eps-converted-to.pdf topplingrod-eps-converted-to.pdf dubdubdub-eps-converted-to.pdf
-	@$(RM) -f $(PROJECT_ROOT)data/* #this is edited
-	@$(RM) -f ./data/*
+	
 doc:
 	@$(ECHO) -n "Generating Doxygen Documentation ...  "
 	@$(RM) -rf doc/html
@@ -152,9 +153,13 @@ plot:
 	./average.sh;\
 	gnuplot g28_plot01.gpt;\
 	gnuplot g28_plot02.gpt;\
+	$(RM) -f ../data/average.csv;\
 	./dev.sh;\
 	gnuplot g28_plot03.gpt;\
+	$(RM) -f ../data/average.csv;\
 	./highest.sh;\
 	gnuplot g28_plot04.gpt;\
+	$(RM) -f ../data/highest.csv;\
 	./average4andrandom.sh;\
-	gnuplot g28_plot05.gpt
+	gnuplot g28_plot05.gpt;\
+	$(RM) -f ../data/average4andrandom.csv
